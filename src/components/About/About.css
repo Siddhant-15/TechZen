@@ -1,0 +1,108 @@
+/* Section Styling */
+.about-section {
+    background-color: #1a1a1a;
+    color: #cccccc;
+    padding: 5rem 1rem;
+}
+
+/* Section Title Styling */
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Section Description Styling */
+.section-description {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.75;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #dddddd;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* Image Container Styling */
+.image-container {
+    margin-top: 3rem;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDelay {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .section-description {
+        font-size: 1.25rem;
+    }
+
+    .image-container {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-title {
+        font-size: 3rem;
+    }
+
+    .section-description {
+        font-size: 1.5rem;
+    }
+
+    .image-container {
+        max-width: 1000px;
+    }
+}

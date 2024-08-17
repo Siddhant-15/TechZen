@@ -1,0 +1,36 @@
+.bg-dark {
+    background-color: #1D2233;
+    /* Dark background color */
+}
+
+.glow-hover:hover {
+    text-shadow: 0 0 8px rgba(0, 217, 255, 0.8);
+    transform: scale(1.05);
+}
+
+.text-primary {
+    color: #F0F4F8;
+}
+
+.text-accent {
+    color: #56B2BB;
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Navbar.css */
+.logo-container img {
+    width: 100%;
+    /* Ensures the logo displays at its full size */
+    max-width: 150px;
+    /* Optional: Sets a max width to prevent it from being too large */
+    transition: transform 0.3s ease-in-out;
+    /* Smooth transition for the zoom effect */
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+    /* Zooms in the logo on hover */
+}

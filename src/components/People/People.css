@@ -1,0 +1,103 @@
+/* Section Styling */
+.people-section {
+    background-color: #1a1a1a;
+    color: #cccccc;
+    padding: 5rem 1rem;
+}
+
+/* Section Title Styling */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #ffffff;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Team Card Styling */
+.team-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.team-card-inner {
+    background-color: #252525;
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.team-card:hover .team-card-inner {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+/* Team Image Styling */
+.team-image {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.team-card:hover .team-image {
+    transform: scale(1.1);
+}
+
+/* Team Name and Role Styling */
+.team-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #00ffff;
+    margin-bottom: 1rem;
+}
+
+.team-role {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 3rem;
+    }
+
+    .team-name {
+        font-size: 1.5rem;
+    }
+
+    .team-role {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-title {
+        font-size: 3.5rem;
+    }
+
+    .team-name {
+        font-size: 1.75rem;
+    }
+
+    .team-role {
+        font-size: 1.25rem;
+    }
+}

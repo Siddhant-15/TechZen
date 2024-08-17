@@ -1,0 +1,34 @@
+/* ScrollToTop Container Styling */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Scroll Button Styling */
+.scroll-btn {
+    background-color: #56B2BB;
+    color: white;
+    padding: 1rem;
+    border-radius: 40%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.scroll-btn:hover {
+    background-color: #1D2233;
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 255, 255, 0.5);
+}
+
+/* Visibility Transition */
+.opacity-100 {
+    opacity: 1 !important;
+}
+
+.opacity-0 {
+    opacity: 0 !important;
+}

@@ -1,0 +1,10 @@
+.footer-links a {
+    margin: 0 10px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #FF69B4;
+    /* Replace with your accent color */
+}
