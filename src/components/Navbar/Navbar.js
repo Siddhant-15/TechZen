@@ -47,7 +47,7 @@ const Navbar = () => {
                         <a href="#home" className="block text-primary hover:text-accent transition duration-300">Home</a>
                         <a href="#about" className="block text-primary hover:text-accent transition duration-300">About Us</a>
                         <a href="#services" className="block text-primary hover:text-accent transition duration-300">Services</a>
-                        <a href="#people" className="block text-primary hover:text-accent transition duration-300">People</a>
+             {/*<a href="#people" className="block text-primary hover:text-accent transition duration-300">People</a>*/}
                         <a href="#contact" className="block text-primary hover:text-accent transition duration-300">Contact Us</a>
                     </div>
                 </div>
